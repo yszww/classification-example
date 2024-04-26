@@ -15,5 +15,5 @@ new Vue({
   render: h => h(App),
   router,
   mModal: Modal,
-  component: { App }
+  components: { App }
 }).$mount('#app')
